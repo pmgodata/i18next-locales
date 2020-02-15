@@ -31,4 +31,4 @@ Please makes sure that these forms are filled before submitting your pull reques
 ## ☑️ Self Check before Merge
 
 - [ ] Doc is updated/provided or not needed
-- [ ] Followed the code rule listed in [README.md](../README.md#code-rules)
+- [ ] Followed the code rule listed in README.md
