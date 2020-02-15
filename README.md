@@ -1,6 +1,6 @@
 # pmgodata i18next locales
 
-i18n translation for pmgodata.app and implemented with [i18next](https://www.i18next.com/)
+I18n locales for pmgodata.app and implemented with [i18next](https://www.i18next.com/)
 
 ## Available Languages
 
@@ -25,7 +25,7 @@ Each locale folder contains several translation files, and each file is a `names
 
 ## Contributing
 
-We would love for you to contribute to this project and help do translation of other languages! As a contributor, here are the guidelines we would like you to follow:
+We would love for you to contribute to this project and help do the translation of other languages! As a contributor, here are the guidelines we would like you to follow:
 
 - [Code Rules](#code-rules)
 - [GitHub Flow](#github-flow)
@@ -33,13 +33,13 @@ We would love for you to contribute to this project and help do translation of o
 
 ### Code Rules
 
-- JSON key must sorted alphabetically
+- JSON key must be sorted alphabetically
 - Add final new line in each file
 - Indentation: 4 spaces
 
 ### GitHub flow
 
-We use GitHub flow. Please read the [article](https://guides.github.com/introduction/flow/) before contributing. Branch `develop` will be the development branch and do pull request against it.
+We use GitHub flow. Please read the [article](https://guides.github.com/introduction/flow/) before contributing. Branch `develop` will be the development branch and do pull requests against it.
 
 ### Commit Message Guidelines
 
