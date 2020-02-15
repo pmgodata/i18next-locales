@@ -37,7 +37,7 @@ We would love for you to contribute to this project and help do the translation 
 - Add final new line in each file
 - Indentation: 4 spaces
 
-### GitHub flow
+### GitHub Flow
 
 We use GitHub flow. Please read the [article](https://guides.github.com/introduction/flow/) before contributing. Branch `develop` will be the development branch and do pull requests against it.
 
