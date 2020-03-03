@@ -225,11 +225,11 @@
             "facebookPage": "We'll post latest game news and information about this site on Facebook page.",
             "legacyMove": "Gray background indicates $t(glossary.legacyMove).",
             "level": {
-                "lv15": "$t(common.level, { lv: 15 })$t(glossary.punctuation.colon)$t(glossary.request) reward.",
-                "lv20": "$t(common.level, { lv: 20 })$t(glossary.punctuation.colon)$t(glossary.raid) reward.",
-                "lv25": "$t(common.level, { lv: 25 })$t(glossary.punctuation.colon)$t(glossary.raid) reward with weather boost.",
-                "lv30": "$t(common.level, { lv: 30 })$t(glossary.punctuation.colon)maximum level in wild.",
-                "lv35": "$t(common.level, { lv: 35 })$t(glossary.punctuation.colon)maximum level in wild with weather boost."
+                "lv15": "$t(common.level, { 'lv': 15 })$t(glossary.punctuation.colon)$t(glossary.request) reward.",
+                "lv20": "$t(common.level, { 'lv': 20 })$t(glossary.punctuation.colon)$t(glossary.raid) reward.",
+                "lv25": "$t(common.level, { 'lv': 25 })$t(glossary.punctuation.colon)$t(glossary.raid) reward with weather boost.",
+                "lv30": "$t(common.level, { 'lv': 30 })$t(glossary.punctuation.colon)maximum level in wild.",
+                "lv35": "$t(common.level, { 'lv': 35 })$t(glossary.punctuation.colon)maximum level in wild with weather boost."
             },
             "main": "{{ appName }}, also called 'pmgodata' is a game database website of Pokémon GO. The website is made by some enthusiastic gamers and provide Pokémons, types, moves data. User can start from the links below or search content with top-right searching function.",
             "moveEffectiveness": "Each $t(glossary.move) has its $t(glossary.type) and deals different $t(glossary.damage) effectiveness against different $t(glossary.type) of $t(glossary.pokemon). For example, Water Gun against fire-type Charizard will show you 'SUPER EFFECTIVE' on the game screen. While against grass-type Venusaur, you can see 'NOT VERY EFFECTIVE...' on the game screen.",
