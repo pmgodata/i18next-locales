@@ -59,7 +59,7 @@
         "chill": "$t(common.withParentheses, { 'text': '冰凍卡帶形態' })",
         "douse": "$t(common.withParentheses, { 'text': '水流卡帶形態' })",
         "shock": "$t(common.withParentheses, { 'text': '閃電卡帶形態' })",
-        "galarian": "$t(common.withParentheses, { 'text': '伽勒爾形態}' )）",
+        "galarian": "$t(common.withParentheses, { 'text': '伽勒爾形態' })",
         "normal": ""
     },
     "Bulbasaur": "妙蛙種子",

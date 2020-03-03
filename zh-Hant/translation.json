@@ -168,7 +168,7 @@
             "cookieConsent": "為了提供良好的使用體驗，本站使用 cookie 技術。欲了解更多詳情，您可以點擊下方的「$t(common.learnMore)」。若您點選「$t(common.confirm)」，將視為您接受本站之 cookie 政策。",
             "ieAlert": "本站即將於 v.2.0.0 版本起停止支援所有版本的 Internet Explorer 瀏覽器，請改用 Google Chrome, Microsoft Edge, Mozilla Firefox 或其他現代瀏覽器。"
         },
-        "bestAttackMoveSets": "$t(glossary.attack)最佳$t(glossary.moveSet, {'count': {{count}} })",
+        "bestAttackMoveSets": "$t(glossary.attack)最佳$t(glossary.moveSet, {'count': 2 })",
         "changeLog": {
             "log1": "2018-11-21，更新孵蛋資訊。",
             "log2": "2018-12-12，更新孵蛋資訊。",
@@ -225,11 +225,11 @@
             "facebookPage": "Facebook 粉絲專頁會有最新遊戲消息，以及不定期發布本網站變更消息",
             "legacyMove": "灰底為$t(glossary.legacyMove)",
             "level": {
-                "lv15": "$t(common.level, { lv: 15 })$t(glossary.punctuation.colon)田野或特殊$t(glossary.request)獎勵",
-                "lv20": "$t(common.level, { lv: 20 })$t(glossary.punctuation.colon)$t(glossary.raid)獎勵",
-                "lv25": "$t(common.level, { lv: 25 })$t(glossary.punctuation.colon)天氣加成時，$t(glossary.raid)獎勵",
-                "lv30": "$t(common.level, { lv: 30 })$t(glossary.punctuation.colon)野外可捕捉最高等級",
-                "lv35": "$t(common.level, { lv: 35 })$t(glossary.punctuation.colon)天氣加成時，野外可捕捉最高等級"
+                "lv15": "$t(common.level, { 'lv': 15 })$t(glossary.punctuation.colon)田野或特殊$t(glossary.request)獎勵",
+                "lv20": "$t(common.level, { 'lv': 20 })$t(glossary.punctuation.colon)$t(glossary.raid)獎勵",
+                "lv25": "$t(common.level, { 'lv': 25 })$t(glossary.punctuation.colon)天氣加成時，$t(glossary.raid)獎勵",
+                "lv30": "$t(common.level, { 'lv': 30 })$t(glossary.punctuation.colon)野外可捕捉最高等級",
+                "lv35": "$t(common.level, { 'lv': 35 })$t(glossary.punctuation.colon)天氣加成時，野外可捕捉最高等級"
             },
             "main": "{{ appName }} 簡稱（pmgodata）是一個 Pokémon GO（精靈寶可夢GO）遊戲資料庫，由一群熱愛此遊戲的玩家所建立，提供查詢遊戲資料的功能。使用者可以在本站快速查詢寶可夢資料、屬性資料與招式資料。可以選擇從下方快速連結開始使用，或是直接使用頁面右上角搜尋按鈕開始搜尋。",
             "moveEffectiveness": "每一個$t(glossary.move)都有它各自的$t(glossary.type)，不同$t(glossary.type)的招式，對上不同$t(glossary.type)的$t(glossary.pokemon)可以造成不同比例的$t(glossary.damage)。例如水屬性的招式「水槍」，攻擊火屬性的噴火龍會得到「效果絕佳」的提示；攻擊草屬性的妙蛙花會得到「效果不太好」的提示。",
@@ -247,7 +247,7 @@
         "fairUseDecl": "本站和 Pokémon GO 官方無任何關係。類似於維基百科，本站遵循「合理使用」原則。",
         "iconCredit1": "網站 icon 由 alicewei 製作",
         "iconCredit2": "$t(glossary.gender_capitalized) icon 為 Freepik 製作，基於「CC 3.0 BY」授權",
-        "moreMoveSets": "$t(glossary.more_capitalized)$t(glossary.moveSet, {'count': {{count}} })",
+        "moreMoveSets": "$t(glossary.more_capitalized)$t(glossary.moveSet, {'count': 2 })",
         "notFound": {
             "part1": "找不到內容啊！？",
             "part2": "請檢查網址是否正確，或是點擊下方連結從首頁開始$t(glossary.punctuation.colon)"

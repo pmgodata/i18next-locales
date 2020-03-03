@@ -7,6 +7,7 @@ Please makes sure that these forms are filled before submitting your pull reques
 ## 🤔 This is a ...
 
 - [ ] New feature
+- [ ] Bug fix
 - [ ] Site / document update
 - [ ] Refactoring
 - [ ] Code style optimization
