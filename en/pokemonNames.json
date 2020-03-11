@@ -60,6 +60,7 @@
         "douse": "$t(common.withParentheses, { 'text': 'douse form' })",
         "shock": "$t(common.withParentheses, { 'text': 'shock form' })",
         "galarian": "$t(common.withParentheses, { 'text': 'galarian form' })",
+        "libre": "$t(common.withParentheses, { 'text': 'Libre form' })",
         "normal": ""
     },
     "Bulbasaur": "Bulbasaur",

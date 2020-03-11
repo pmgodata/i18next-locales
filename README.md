@@ -33,7 +33,7 @@ We would love for you to contribute to this project and help do the translation 
 
 ### Code Rules
 
-- JSON key must be sorted alphabetically
+- JSON key in `translation.json` must be sorted alphabetically
 - Add final new line in each file
 - Indentation: 4 spaces
 
