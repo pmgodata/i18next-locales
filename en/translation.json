@@ -230,7 +230,11 @@
                 "part1": "February 1, 2020, v1.3.0 release",
                 "part2": "Add English version"
             },
-            "log32": "February 2, 2020, fix: $t(glossary.pokemon) type name in filter not translated. Preserve filter state in URL while changing language."
+            "log32": "February 2, 2020, fix: $t(glossary.pokemon) type name in filter not translated. Preserve filter state in URL while changing language.",
+            "log33": {
+                "part1": "April 2, 2020, v1.4.0 release",
+                "part2": "Trainer Battle IV rank calculator"
+            }
         },
         "copyRightDecl": "All Pokémon GO trademarks, copyrights etc are held by Niantic, Inc.; Pokémon; and Nintendo / Creatures Inc. / GAME FREAK inc. Pokémon and Pokémon character names are trademarks of Nintendo.",
         "desc": {
