@@ -61,6 +61,9 @@
         "shock": "$t(common.withParentheses, { 'text': 'shock form' })",
         "galarian": "$t(common.withParentheses, { 'text': 'galarian form' })",
         "libre": "$t(common.withParentheses, { 'text': 'Libre form' })",
+        "standard": "$t(common.withParentheses, { 'text': 'standard form' })",
+        "galarian-standard": "$t(common.withParentheses, { 'text': 'galarian-standard form' })",
+        "galarian-zen": "$t(common.withParentheses, { 'text': 'galarian-zen form' })",
         "normal": ""
     },
     "Bulbasaur": "Bulbasaur",
