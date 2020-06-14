@@ -2,6 +2,7 @@
     "common": {
         "addToHomeScreen": "加到主畫面",
         "apply": "套用",
+        "ascend": "由小到大",
         "battleMode": "對戰模式",
         "cancel": "取消",
         "chanceWithValue": "{{ value }} 機率",
@@ -13,6 +14,7 @@
         "creditsAndDecl": "致謝與聲明",
         "confirm": "確認",
         "dealDamage": "$t(glossary.damage)比例",
+        "descend": "由大到小",
         "done": "好",
         "facebookPage": "粉絲專頁",
         "fastMove": "一般招式",
@@ -156,6 +158,7 @@
             "fullStop": "。"
         },
         "pvp": {
+            "damage": "PvP $t(glossary.damage)",
             "self": "自己",
             "opponent": "對手"
         },
