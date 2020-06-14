@@ -2,7 +2,9 @@
     "common": {
         "addToHomeScreen": "加到主畫面",
         "apply": "套用",
+        "battleMode": "對戰模式",
         "cancel": "取消",
+        "chanceWithValue": "{{ value }} 機率",
         "changeLog": "變更紀錄",
         "chargeMove": "特殊招式",
         "chargeMove_plural": "特殊招式",
@@ -16,6 +18,7 @@
         "fastMove": "一般招式",
         "fastMove_plural": "一般招式",
         "filterContents": "過濾內容",
+        "gymBattle": "道館戰",
         "highToLow": "由高到低",
         "indexPage": "首頁",
         "issueReport": "問題回報",
@@ -25,6 +28,8 @@
         "lowToHigh": "由低到高",
         "maxLevel": "最高等級",
         "minIv": "最低 IV",
+        "moveEffect": "招式效果",
+        "moveStatsStageChange": "$t(glossary.pvp.{{ target }})$t(glossary.{{ type }})$t(glossary.{{ action }}) {{ value }} 階",
         "noData": "暫無資料",
         "noLimit": "無上限",
         "notAvailable": "無法取得",
@@ -63,6 +68,7 @@
         "socialMediaLink": "社群媒體連結",
         "sorting": "排序",
         "takeDamage": "承受$t(glossary.damage)",
+        "trainerBattle": "訓練家對戰",
         "withParentheses": "（{{ text }}）"
     },
     "glossary": {
@@ -83,6 +89,7 @@
         "candy_plural": "糖果",
         "damage": "傷害",
         "damage_capitalized": "傷害",
+        "decrease": "降低",
         "defense": "防禦",
         "defense_capitalized": "防禦",
         "dex": "圖鑑",
@@ -108,6 +115,7 @@
         "height": "身高",
         "height_capitalized": "身高",
         "hp": "HP",
+        "increase": "增加",
         "information": "資訊",
         "information_capitalized": "資訊",
         "language": "語言",
@@ -142,9 +150,14 @@
         "pokemon": "寶可夢",
         "pokemon_plural": "寶可夢",
         "punctuation": {
+            "ampersand": " & ",
             "colon": "：",
             "comma": "，",
             "fullStop": "。"
+        },
+        "pvp": {
+            "self": "自己",
+            "opponent": "對手"
         },
         "raid": "團體戰",
         "raid_plural": "團體戰",
@@ -239,8 +252,10 @@
         "copyRightDecl": "「Pokémon GO」為 Niantic, Inc. 商標。「Pokémon」與所有寶可夢名稱為 Nintendo 註冊商標。寶可夢相關著作權為 ©2019 Pokémon. ©1995-2019 Nintendo / Creatures Inc. / GAME FREAK inc. 所有。",
         "desc": {
             "dps": "每秒$t(glossary.damage)量。",
+            "dpt": "每 turn $t(glossary.damage)量。",
             "dpsStab": "若出招$t(glossary.pokemon)擁有與此$t(glossary.move)相同$t(glossary.type)，可得到額外加成，每秒$t(glossary.damage)量較高。",
             "eps": "每秒產生$t(glossary.energy)，用來替$t(common.chargeMove)蓄能。",
+            "ept": "每 turn 產生$t(glossary.energy)。",
             "facebookPage": "Facebook 粉絲專頁會有最新遊戲消息，以及不定期發布本網站變更消息",
             "legacyMove": "灰底為$t(glossary.legacyMove)",
             "level": {
@@ -254,6 +269,8 @@
             "moveEffectiveness": "每一個$t(glossary.move)都有它各自的$t(glossary.type)，不同$t(glossary.type)的招式，對上不同$t(glossary.type)的$t(glossary.pokemon)可以造成不同比例的$t(glossary.damage)。例如水屬性的招式「水槍」，攻擊火屬性的噴火龍會得到「效果絕佳」的提示；攻擊草屬性的妙蛙花會得到「效果不太好」的提示。",
             "moveSetRanking": "$t(common.pokemon.moveSetsRanking) 依據「道館/$t(glossary.raid)」對戰機制計算，以 weave DPS 做排名。 $t(glossary.defense)道館的$t(glossary.pokemon)出招平均有 2 秒延遲，已加入$t(glossary.defense)招式組合的計算。",
             "pvpIvCalculator": "計算選擇$t(glossary.pokemon)在不同聯盟對戰中最好的 IV 組合",
+            "pvpMoveDifference": "訓練家對戰模式下，招式傷害與能量可能與道館戰模式不同。",
+            "pvpMoveDuration": "訓練家對戰模式下，招式時間單位為 'turn'，每 1 turn 為 0.5 秒。",
             "sameTypeBonus": "星號*標示為「同屬性傷害加成」，加成比例 20% 已計入 DPS 中",
             "twitterAccount": "Twitter 帳號會用於發布本站最新資訊、轉推遊戲官方快訊或是其他玩家推文",
             "typeEffectiveness": "進攻方使出的招式，面對不同屬性的防守方$t(glossary.pokemon)，產生不一樣的傷害比例。舉例來說，圈圈熊本身是一般屬性，他能夠使出格鬥屬性的「雙倍奉還」，格鬥屬性會對一般屬性的卡比獸造成較高比例的傷害，你可以在遊戲畫面上看到「效果絕佳」的提示；對於超能力屬性的胡地傷害比例較低，你可以看到「效果不太好」的提示",
