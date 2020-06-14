@@ -2,6 +2,7 @@
     "common": {
         "addToHomeScreen": "Add to Home Screen",
         "apply": "Apply",
+        "ascend": "ascend",
         "battleMode": "battle mode",
         "cancel": "Cancel",
         "chanceWithValue": "{{ value }} chance",
@@ -13,6 +14,7 @@
         "creditsAndDecl": "Credits and Declaration",
         "confirm": "Confirm",
         "dealDamage": "Deal $t(glossary.damage)",
+        "descend": "descend",
         "done": "Done",
         "facebookPage": "page",
         "fastMove": "Fast Move",
@@ -156,6 +158,7 @@
             "fullStop": "."
         },
         "pvp": {
+            "damage": "PvP $t(glossary.damage)",
             "self": "self",
             "opponent": "opponent"
         },
