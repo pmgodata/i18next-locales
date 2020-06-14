@@ -2,7 +2,9 @@
     "common": {
         "addToHomeScreen": "Add to Home Screen",
         "apply": "Apply",
+        "battleMode": "battle mode",
         "cancel": "Cancel",
+        "chanceWithValue": "{{ value }} chance",
         "changeLog": "Change Log",
         "chargeMove": "Charge Move",
         "chargeMove_plural": "Charge Moves",
@@ -16,6 +18,7 @@
         "fastMove": "Fast Move",
         "fastMove_plural": "Fast Moves",
         "filterContents": "Filter Contents",
+        "gymBattle": "gym battle",
         "highToLow": "High to Low",
         "indexPage": "Index",
         "issueReport": "Issue Report",
@@ -25,6 +28,8 @@
         "lowToHigh": "Low to High",
         "maxLevel": "maximum level",
         "minIv": "minimum IV",
+        "moveEffect": "move effect",
+        "moveStatsStageChange": "$t(glossary.pvp.{{ target }}) $t(glossary.{{ type }}) $t(glossary.{{ action }})s {{ value }}",
         "noData": "No data",
         "noLimit": "no limit",
         "notAvailable": "Not Available",
@@ -63,6 +68,7 @@
         "socialMediaLink": "SNS Links",
         "sorting": "Sorting",
         "takeDamage": "Take $t(glossary.damage)",
+        "trainerBattle": "trainer battle",
         "withParentheses": "({{ text }})"
     },
     "glossary": {
@@ -83,6 +89,7 @@
         "candy_plural": "candies",
         "damage": "damage",
         "damage_capitalized": "Damage",
+        "decrease": "decrease",
         "defense": "defense",
         "defense_capitalized": "Defense",
         "dex": "PokéDex",
@@ -108,6 +115,7 @@
         "height": "height",
         "height_capitalized": "Height",
         "hp": "HP",
+        "increase": "increase",
         "information": "information",
         "information_capitalized": "Information",
         "language": "language",
@@ -142,9 +150,14 @@
         "pokemon": "Pokémon",
         "pokemon_plural": "Pokémon",
         "punctuation": {
+            "ampersand": " & ",
             "colon": ": ",
             "comma": ", ",
             "fullStop": "."
+        },
+        "pvp": {
+            "self": "self",
+            "opponent": "opponent"
         },
         "raid": "Raid",
         "raid_plural": "Raids",
@@ -239,8 +252,10 @@
         "copyRightDecl": "All Pokémon GO trademarks, copyrights etc are held by Niantic, Inc.; Pokémon; and Nintendo / Creatures Inc. / GAME FREAK inc. Pokémon and Pokémon character names are trademarks of Nintendo.",
         "desc": {
             "dps": "$t(glossary.damage_capitalized) per $t(glossary.second).",
+            "dpt": "$t(glossary.damage_capitalized) per turn.",
             "dpsStab": "If $t(glossary.pokemon) has the same $t(glossary.type) with this move, it will get $t(glossary.damage) bonus while using it.",
             "eps": "$t(glossary.energy_capitalized) per $t(glossary.second).",
+            "ept": "$t(glossary.energy_capitalized) per turn.",
             "facebookPage": "We'll post latest game news and information about this site on Facebook page.",
             "legacyMove": "Gray background indicates $t(glossary.legacyMove).",
             "level": {
@@ -254,6 +269,8 @@
             "moveEffectiveness": "Each $t(glossary.move) has its $t(glossary.type) and deals different $t(glossary.damage) effectiveness against different $t(glossary.type) of $t(glossary.pokemon). For example, Water Gun against fire-type Charizard will show you 'SUPER EFFECTIVE' on the game screen. While against grass-type Venusaur, you can see 'NOT VERY EFFECTIVE...' on the game screen.",
             "moveSetRanking": "$t(common.pokemon.moveSetsRanking) is calculated with the Gym/$t(glossary.raid) mechanism and ranked by weave DPS. Two seconds average delay before each move of $t(glossary.defense) $t(glossary.pokemon) is counted in $t(glossary.defense) case.",
             "pvpIvCalculator": "Calculate the best $t(glossary.pokemon) IV in different Battle League.",
+            "pvpMoveDifference": "In the Trainer Battle mode, move damage and energy might be different.",
+            "pvpMoveDuration": "In the Trainer Battle mode, unit of move duration is 'turn', and one turn is equal to 0.5 second.",
             "sameTypeBonus": "With 'same type attack bonus' and already calculated in DPS.",
             "twitterAccount": "We use Twitter to announce latest news about this website. Also retweet official game news and tweets from other trainers.",
             "typeEffectiveness": "Different type makes different damage effectiveness. For example, Machamp's Counter which is fighting type makes more $t(glossary.damage) against Snorlax which is normal type, and you can see 'SUPER EFFECTIVE' on the game screen. While against Alakazam, you can see 'NOT VERY EFFECTIVE...' on the game screen.",
